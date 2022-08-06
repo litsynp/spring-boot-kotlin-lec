@@ -1,6 +1,6 @@
 package com.litsynp.demo.controller.get
 
-import com.litsynp.demo.http.UserRequest
+import com.litsynp.demo.model.http.UserRequest
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
