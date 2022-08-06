@@ -9,7 +9,7 @@ data class UserResponse(
     var description: String? = null,
 
     @JsonProperty("user")
-    var userRequest: MutableList<UserRequest>? = null
+    var userResponse: MutableList<UserRequest>? = null
 )
 
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy::class)
